@@ -1,0 +1,775 @@
+{\Large{Patron 1}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 0, 0, 0, 0, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 2, 0)--(2, 2, 0)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](3, 3, 0)--(2, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 2)--(2, 0, 2)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 3)--(2, 0, 2);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 2}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 0, 0, 0, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](3, 2, 0)--(3, 2, 2)--(3, 1, 2)--(3, 1, 0);
+    \draw[line width=0.4mm](3, 2, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](3, 1, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0.7, 0)--(1.8, 0.7, 0)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0.7, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0.7, 0)--(2, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](3, 1, 0)--(2.3, 1.2, 0)--(2.3, 1.8, 0)--(3, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 1.2, 0)--(2, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 1.8, 0)--(2, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 2)--(2, 0, 2)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 3)--(2, 0, 2);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 3}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 0, 0, 1, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(0, 2, 2)--(0, 1, 2)--(0, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm](3, 2, 0)--(3, 2, 2)--(3, 1, 2)--(3, 1, 0);
+    \draw[line width=0.4mm](3, 2, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](3, 1, 2)--(3, 0, 3);
+    \draw[line width=0.4mm](1, 3, 0)--(1, 3, 2)--(2, 3, 2)--(2, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2);
+    \draw[line width=0.4mm](3, 3, 3)--(2, 3, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(3, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(3, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 2)--(2, 0, 2)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 3)--(2, 0, 2);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 4}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 0, 0, 1, 1, 1, 0]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1.2, 0.7)--(0, 1.8, 0.7)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 0.7)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 0.7)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 0.7, 1.2)--(0, 0.7, 1.8)--(0, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.2)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.8)--(0, 1, 2);
+        \draw[line width=0.4mm](1, 3, 0)--(1, 3, 2)--(2, 3, 2)--(2, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2);
+    \draw[line width=0.4mm](3, 3, 3)--(2, 3, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 3, 0)--(1.2, 2.3, 0)--(1.8, 2.3, 0)--(2, 3, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 2.3, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 2.3, 0)--(2, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0.7, 1.2, 0)--(0.7, 1.8, 0)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.2, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.8, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(2, 0, 2)--(2, 0, 1)--(0, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 1)--(3, 0, 0);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 5}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 1, 0, 1, 1, 1, 0]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 1)--(0, 2.3, 1.2)--(0, 2.3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.2)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.8)--(0, 2, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1.2, 0.7)--(0, 1.8, 0.7)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 0.7)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 0.7)--(0, 2, 1);
+        \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](1, 3, 0)--(1.2, 3, 0.7)--(1.8, 3, 0.7)--(2, 3, 0);
+        \draw[line width=0.4mm](1.2, 3, 0.7)--(1, 3, 1);
+        \draw[line width=0.4mm](1.8, 3, 0.7)--(2, 3, 1);
+        \draw[line width=0.4mm](0, 3, 1)--(0.7, 3, 1.2)--(0.7, 3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm](0.7, 3, 1.2)--(1, 3, 1);
+        \draw[line width=0.4mm](0.7, 3, 1.8)--(1, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 3, 0)--(1.2, 2.3, 0)--(1.8, 2.3, 0)--(2, 3, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 2.3, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 2.3, 0)--(2, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0.7, 1.2, 0)--(0.7, 1.8, 0)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.2, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.8, 0)--(1, 2, 0);
+        
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 6}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 1, 0, 1, 1, 0, 0]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](0, 2, 3)--(2, 2, 3)--(2, 1, 3)--(0, 1, 3);
+    \draw[line width=0.4mm](2, 2, 3)--(3, 3, 3);
+    \draw[line width=0.4mm](2, 1, 3)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 3)--(0, 1.2, 2.3)--(0, 1.8, 2.3)--(0, 2, 3);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 2.3)--(0, 1, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 2.3)--(0, 2, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 3, 1)--(0, 2.3, 1.2)--(0, 2.3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.2)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.8)--(0, 2, 2);
+        \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](1, 3, 0)--(1.2, 3, 0.7)--(1.8, 3, 0.7)--(2, 3, 0);
+        \draw[line width=0.4mm](1.2, 3, 0.7)--(1, 3, 1);
+        \draw[line width=0.4mm](1.8, 3, 0.7)--(2, 3, 1);
+        \draw[line width=0.4mm](0, 3, 1)--(0.7, 3, 1.2)--(0.7, 3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm](0.7, 3, 1.2)--(1, 3, 1);
+        \draw[line width=0.4mm](0.7, 3, 1.8)--(1, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](1, 3, 0)--(1, 1, 0)--(2, 1, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 0)--(2, 1, 0);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 7}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 0, 1, 0, 1, 1, 0]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 2, 1)--(0, 2, 2)--(0, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 3)--(0, 2, 2);
+    \draw[line width=0.4mm](3, 3, 1)--(3, 1, 1)--(3, 1, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](3, 0, 0)--(3, 1, 1);
+    \draw[line width=0.4mm](3, 0, 3)--(3, 1, 2);
+    \draw[line width=0.4mm](3, 3, 1)--(1, 3, 1)--(1, 3, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(2, 0, 2)--(2, 0, 1)--(0, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 1)--(3, 0, 0);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 8}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 0, 1, 1, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(0, 2, 2)--(0, 1, 2)--(0, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm](3, 0, 0)--(3, 1, 1)--(3, 1, 2)--(3, 0, 3);
+    \draw[line width=0.4mm](3, 3, 0)--(3, 2, 1)--(3, 2, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](3, 1, 1)--(3, 2, 1);
+    \draw[line width=0.4mm](3, 2, 2)--(3, 1, 2);
+    \draw[line width=0.4mm](3, 1, 0)--(3, 1.2, 0.7)--(3, 1.8, 0.7)--(3, 2, 0);
+        \draw[line width=0.4mm](3, 1.2, 0.7)--(3, 1, 1);
+        \draw[line width=0.4mm](3, 1.8, 0.7)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 3, 1)--(3, 2.3, 1.2)--(3, 2.3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](3, 2.3, 1.2)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 2.3, 1.8)--(3, 2, 2);
+        \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](3, 3, 1)--(2.3, 3, 1.2)--(2.3, 3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](2.3, 3, 1.2)--(2, 3, 1);
+        \draw[line width=0.4mm](2.3, 3, 1.8)--(2, 3, 2);
+        \draw[line width=0.4mm](1, 3, 0)--(1.2, 3, 0.7)--(1.8, 3, 0.7)--(2, 3, 0);
+        \draw[line width=0.4mm](1.2, 3, 0.7)--(1, 3, 1);
+        \draw[line width=0.4mm](1.8, 3, 0.7)--(2, 3, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(3, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(3, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 2)--(2, 0, 2)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 3)--(2, 0, 2);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 9}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 0, 1, 1, 1, 1, 0]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1.2, 0.7)--(0, 1.8, 0.7)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 0.7)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 0.7)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 0.7, 1.2)--(0, 0.7, 1.8)--(0, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.2)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.8)--(0, 1, 2);
+        \draw[line width=0.4mm](3, 3, 1)--(3, 1, 1)--(3, 1, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](3, 0, 0)--(3, 1, 1);
+    \draw[line width=0.4mm](3, 0, 3)--(3, 1, 2);
+    \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](3, 3, 1)--(2.3, 3, 1.2)--(2.3, 3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](2.3, 3, 1.2)--(2, 3, 1);
+        \draw[line width=0.4mm](2.3, 3, 1.8)--(2, 3, 2);
+        \draw[line width=0.4mm](1, 3, 0)--(1.2, 3, 0.7)--(1.8, 3, 0.7)--(2, 3, 0);
+        \draw[line width=0.4mm](1.2, 3, 0.7)--(1, 3, 1);
+        \draw[line width=0.4mm](1.8, 3, 0.7)--(2, 3, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 3, 0)--(1.2, 2.3, 0)--(1.8, 2.3, 0)--(2, 3, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 2.3, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 2.3, 0)--(2, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0.7, 1.2, 0)--(0.7, 1.8, 0)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.2, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.8, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(2, 0, 2)--(2, 0, 1)--(0, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 1)--(3, 0, 0);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 10}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 0, 1, 1, 1, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Arista (2 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Arista (2 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](1, 3, 3)--(1, 1, 3)--(2, 1, 3)--(2, 3, 3);
+    \draw[line width=0.4mm](0, 0, 3)--(1, 1, 3);
+    \draw[line width=0.4mm](3, 0, 3)--(2, 1, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 1)--(0, 2.3, 1.2)--(0, 2.3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.2)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.8)--(0, 2, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1.2, 0.7)--(0, 1.8, 0.7)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 0.7)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 0.7)--(0, 2, 1);
+        \draw[line width=0.4mm](3, 0, 0)--(3, 1, 1)--(3, 1, 2)--(3, 0, 3);
+    \draw[line width=0.4mm](3, 3, 0)--(3, 2, 1)--(3, 2, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](3, 1, 1)--(3, 2, 1);
+    \draw[line width=0.4mm](3, 2, 2)--(3, 1, 2);
+    \draw[line width=0.4mm](3, 1, 0)--(3, 1.2, 0.7)--(3, 1.8, 0.7)--(3, 2, 0);
+        \draw[line width=0.4mm](3, 1.2, 0.7)--(3, 1, 1);
+        \draw[line width=0.4mm](3, 1.8, 0.7)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 3, 1)--(3, 2.3, 1.2)--(3, 2.3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](3, 2.3, 1.2)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 2.3, 1.8)--(3, 2, 2);
+        \draw[line width=0.4mm](0, 3, 1)--(3, 3, 1);
+    \draw[line width=0.4mm](0, 3, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](1, 3, 0)--(1, 3, 3);
+    \draw[line width=0.4mm](2, 3, 0)--(2, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(3, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(3, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 2)--(2, 0, 2)--(2, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](3, 0, 3)--(2, 0, 2);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 11}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 1, 1, 1, 0, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](0, 0, 3)--(1, 1, 3)--(2, 1, 3)--(3, 0, 3);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 2, 3)--(2, 2, 3)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 1, 3)--(1, 2, 3);
+    \draw[line width=0.4mm](2, 2, 3)--(2, 1, 3);
+    \draw[line width=0.4mm](1, 3, 3)--(1.2, 2.3, 3)--(1.8, 2.3, 3)--(2, 3, 3);
+        \draw[line width=0.4mm](1.2, 2.3, 3)--(1, 2, 3);
+        \draw[line width=0.4mm](1.8, 2.3, 3)--(2, 2, 3);
+        \draw[line width=0.4mm](0, 1, 3)--(0.7, 1.2, 3)--(0.7, 1.8, 3)--(0, 2, 3);
+        \draw[line width=0.4mm](0.7, 1.2, 3)--(1, 1, 3);
+        \draw[line width=0.4mm](0.7, 1.8, 3)--(1, 2, 3);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(0, 2, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 3, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(0, 3, 2);
+    \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](0, 3, 1)--(0.7, 3, 1.2)--(0.7, 3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm](0.7, 3, 1.2)--(1, 3, 1);
+        \draw[line width=0.4mm](0.7, 3, 1.8)--(1, 3, 2);
+        \draw[line width=0.4mm](1, 3, 3)--(1.2, 3, 2.3)--(1.8, 3, 2.3)--(2, 3, 3);
+        \draw[line width=0.4mm](1.2, 3, 2.3)--(1, 3, 2);
+        \draw[line width=0.4mm](1.8, 3, 2.3)--(2, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0.7, 1.2, 0)--(0.7, 1.8, 0)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.2, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 1.8, 0)--(1, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0.7, 0)--(1.8, 0.7, 0)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0.7, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0.7, 0)--(2, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 0, 1)--(2, 0, 1)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2)--(2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 1)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(2, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0.7, 0, 1.2)--(0.7, 0, 1.8)--(0, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 0, 1.2)--(1, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 0, 1.8)--(1, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0, 0.7)--(1.8, 0, 0.7)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0, 0.7)--(1, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0, 0.7)--(2, 0, 1);
+        
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 12}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 0, 1, 1, 0, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](0, 0, 3)--(1, 1, 3)--(2, 1, 3)--(3, 0, 3);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 2, 3)--(2, 2, 3)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 1, 3)--(1, 2, 3);
+    \draw[line width=0.4mm](2, 2, 3)--(2, 1, 3);
+    \draw[line width=0.4mm](1, 3, 3)--(1.2, 2.3, 3)--(1.8, 2.3, 3)--(2, 3, 3);
+        \draw[line width=0.4mm](1.2, 2.3, 3)--(1, 2, 3);
+        \draw[line width=0.4mm](1.8, 2.3, 3)--(2, 2, 3);
+        \draw[line width=0.4mm](0, 1, 3)--(0.7, 1.2, 3)--(0.7, 1.8, 3)--(0, 2, 3);
+        \draw[line width=0.4mm](0.7, 1.2, 3)--(1, 1, 3);
+        \draw[line width=0.4mm](0.7, 1.8, 3)--(1, 2, 3);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 0.7, 1.2)--(0, 0.7, 1.8)--(0, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.2)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0.7, 1.8)--(0, 1, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 3)--(0, 1.2, 2.3)--(0, 1.8, 2.3)--(0, 2, 3);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 2.3)--(0, 1, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 2.3)--(0, 2, 2);
+        \draw[line width=0.4mm](3, 0, 0)--(3, 1, 1)--(3, 1, 2)--(3, 0, 3);
+    \draw[line width=0.4mm](3, 3, 0)--(3, 2, 1)--(3, 2, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](3, 1, 1)--(3, 2, 1);
+    \draw[line width=0.4mm](3, 2, 2)--(3, 1, 2);
+    \draw[line width=0.4mm](3, 1, 0)--(3, 1.2, 0.7)--(3, 1.8, 0.7)--(3, 2, 0);
+        \draw[line width=0.4mm](3, 1.2, 0.7)--(3, 1, 1);
+        \draw[line width=0.4mm](3, 1.8, 0.7)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 3, 1)--(3, 2.3, 1.2)--(3, 2.3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](3, 2.3, 1.2)--(3, 2, 1);
+        \draw[line width=0.4mm](3, 2.3, 1.8)--(3, 2, 2);
+        \draw[line width=0.4mm](0, 3, 0)--(1, 3, 1)--(2, 3, 1)--(3, 3, 0);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 3, 2)--(2, 3, 2)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 3, 1)--(1, 3, 2);
+    \draw[line width=0.4mm](2, 3, 2)--(2, 3, 1);
+    \draw[line width=0.4mm](1, 3, 3)--(1.2, 3, 2.3)--(1.8, 3, 2.3)--(2, 3, 3);
+        \draw[line width=0.4mm](1.2, 3, 2.3)--(1, 3, 2);
+        \draw[line width=0.4mm](1.8, 3, 2.3)--(2, 3, 2);
+        \draw[line width=0.4mm](3, 3, 1)--(2.3, 3, 1.2)--(2.3, 3, 1.8)--(3, 3, 2);
+        \draw[line width=0.4mm](2.3, 3, 1.2)--(2, 3, 1);
+        \draw[line width=0.4mm](2.3, 3, 1.8)--(2, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 1, 0)--(2, 1, 0)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(1, 2, 0)--(2, 2, 0)--(3, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 1, 0)--(1, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 2, 0)--(2, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0.7, 0)--(1.8, 0.7, 0)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0.7, 0)--(1, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0.7, 0)--(2, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](3, 1, 0)--(2.3, 1.2, 0)--(2.3, 1.8, 0)--(3, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 1.2, 0)--(2, 1, 0);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 1.8, 0)--(2, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 0, 1)--(2, 0, 1)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2)--(2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 1)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(2, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0.7, 0, 1.2)--(0.7, 0, 1.8)--(0, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 0, 1.2)--(1, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0.7, 0, 1.8)--(1, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0, 0.7)--(1.8, 0, 0.7)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0, 0.7)--(1, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0, 0.7)--(2, 0, 1);
+        
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 13}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [0, 1, 1, 1, 1, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Aristas adyacentes (3 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](0, 0, 3)--(1, 1, 3)--(2, 1, 3)--(3, 0, 3);
+    \draw[line width=0.4mm](0, 3, 3)--(1, 2, 3)--(2, 2, 3)--(3, 3, 3);
+    \draw[line width=0.4mm](1, 1, 3)--(1, 2, 3);
+    \draw[line width=0.4mm](2, 2, 3)--(2, 1, 3);
+    \draw[line width=0.4mm](3, 1, 3)--(2.3, 1.2, 3)--(2.3, 1.8, 3)--(3, 2, 3);
+        \draw[line width=0.4mm](2.3, 1.2, 3)--(2, 1, 3);
+        \draw[line width=0.4mm](2.3, 1.8, 3)--(2, 2, 3);
+        \draw[line width=0.4mm](1, 3, 3)--(1.2, 2.3, 3)--(1.8, 2.3, 3)--(2, 3, 3);
+        \draw[line width=0.4mm](1.2, 2.3, 3)--(1, 2, 3);
+        \draw[line width=0.4mm](1.8, 2.3, 3)--(2, 2, 3);
+        \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(0, 1, 1)--(0, 1, 2)--(0, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 0)--(0, 2, 1)--(0, 2, 2)--(0, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 1)--(0, 2, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 2)--(0, 1, 2);
+    \draw[line width=0.4mm,gray,densely dashed](0, 3, 1)--(0, 2.3, 1.2)--(0, 2.3, 1.8)--(0, 3, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.2)--(0, 2, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 2.3, 1.8)--(0, 2, 2);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1.2, 0.7)--(0, 1.8, 0.7)--(0, 2, 0);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.2, 0.7)--(0, 1, 1);
+        \draw[line width=0.4mm,gray,densely dashed](0, 1.8, 0.7)--(0, 2, 1);
+        \draw[line width=0.4mm](3, 1, 0)--(3, 1, 3);
+    \draw[line width=0.4mm](3, 2, 0)--(3, 2, 3);
+    \draw[line width=0.4mm](3, 0, 1)--(3, 3, 1);
+    \draw[line width=0.4mm](3, 0, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](0, 3, 1)--(3, 3, 1);
+    \draw[line width=0.4mm](0, 3, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](1, 3, 0)--(1, 3, 3);
+    \draw[line width=0.4mm](2, 3, 0)--(2, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(3, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(3, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 0)--(1, 0, 1)--(2, 0, 1)--(3, 0, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 3)--(1, 0, 2)--(2, 0, 2)--(3, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 1)--(1, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 2)--(2, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1.2, 0, 0.7)--(1.8, 0, 0.7)--(2, 0, 0);
+        \draw[line width=0.4mm,gray,densely dashed](1.2, 0, 0.7)--(1, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](1.8, 0, 0.7)--(2, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](3, 0, 1)--(2.3, 0, 1.2)--(2.3, 0, 1.8)--(3, 0, 2);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 0, 1.2)--(2, 0, 1);
+        \draw[line width=0.4mm,gray,densely dashed](2.3, 0, 1.8)--(2, 0, 2);
+        
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    {\Large{Patron 14}}
+    \par
+    \begin{minipage}{.45\linewidth}
+    \textbf{Nodos:}
+    [1, 1, 1, 1, 1, 1, 1, 1]\par
+        \textbf{Caras:}
+
+        \textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+\textbf{Cara (4 nodos)}\par
+
+        \end{minipage}\hfill
+    \begin{minipage}{.45\linewidth}
+        \begin{tikzpicture} 
+
+    \draw[thick,fill=gray!20](3,3,0)--(0,3,0)--(0,3,3)--(3,3,3)--(3,3,0)--(3,0,0)--(3,0,3)--(0,0,3)--(0,3,3);
+    \draw[thick](3,3,3)--(3,0,3);
+    \draw[fill=gray!20](0,3,0)--(3,3,0)--(3,3,3)--(0,3,3)--(0,3,0);
+    \draw[thick, densely dashed](3,0,0)--(0,0,0)--(0,3,0);
+    \draw[thick, densely dashed](0,0,0)--(0,0,3);
+\draw[line width=0.4mm](0, 1, 3)--(3, 1, 3);
+    \draw[line width=0.4mm](0, 2, 3)--(3, 2, 3);
+    \draw[line width=0.4mm](1, 0, 3)--(1, 3, 3);
+    \draw[line width=0.4mm](2, 0, 3)--(2, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(0, 1, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(0, 2, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(0, 3, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(0, 3, 2);
+    \draw[line width=0.4mm](3, 1, 0)--(3, 1, 3);
+    \draw[line width=0.4mm](3, 2, 0)--(3, 2, 3);
+    \draw[line width=0.4mm](3, 0, 1)--(3, 3, 1);
+    \draw[line width=0.4mm](3, 0, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](0, 3, 1)--(3, 3, 1);
+    \draw[line width=0.4mm](0, 3, 2)--(3, 3, 2);
+    \draw[line width=0.4mm](1, 3, 0)--(1, 3, 3);
+    \draw[line width=0.4mm](2, 3, 0)--(2, 3, 3);
+    \draw[line width=0.4mm,gray,densely dashed](0, 1, 0)--(3, 1, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 2, 0)--(3, 2, 0);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 3, 0);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 1)--(3, 0, 1);
+    \draw[line width=0.4mm,gray,densely dashed](0, 0, 2)--(3, 0, 2);
+    \draw[line width=0.4mm,gray,densely dashed](1, 0, 0)--(1, 0, 3);
+    \draw[line width=0.4mm,gray,densely dashed](2, 0, 0)--(2, 0, 3);
+    
+        \end{tikzpicture}
+        \end{minipage}
+        \par
+
+    
