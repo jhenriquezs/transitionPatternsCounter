@@ -1,1 +1,1 @@
-mallas
+Contador de patrones de transicion unicos para tecnicas de generacion basadas en Octree 8 y Octree 27
